@@ -1,0 +1,75 @@
+body {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #a6f2db;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  color: #4f4e79;
+  font-size: 30px;
+  align-items: center;
+}
+
+#survey-form {
+  background-color: #7bcace;
+  margin: 0 10%;
+  padding: 50px 100px;
+  border-radius: 10px;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0px;
+}
+
+label {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  color: black;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+input,
+#dropdown {
+  padding: 10px;
+  margin: 5px 0px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 20px;
+  color: rgb(37, 37, 37);
+}
+
+.years,
+.content-type {
+  display: inline-block;
+  margin-right: 5px;
+  min-height: 12px;
+  min-width: 12px;
+  color: rgb(1, 24, 128);
+}
+
+button {
+  background-color: #c7eeff;
+  border: none;
+  position: absolute;
+  left: 50%;
+  width: 100px;
+  height: 40px;
+}
+
+#suggestions {
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: #a6f2db;
+}
